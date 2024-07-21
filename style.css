@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: hsla(92, 20%, 35%, 0.137);
+}
+
+@font-face {
+	font-family: "norseBold";
+	src: url("./image/Norse-Bold.otf");
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.sidebar {
+	width: 40%;
+	height: 100vh;
+	background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+	background-size: 100% 100%;
+}
+
+.sidebarText {
+	text-align: center;
+	margin-top: 50%;
+	color: white;
+	background-color: rgba(7, 7, 7, 0.5);
+	font-size: 40px;
+	font-family: norseBold;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 35%;
+}
+
+.youKnow {
+	padding-top: 40px;
+}
+
+.section-text {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	gap: 40px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.formSection {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.formRow {
+	display: flex;
+	gap: 20%;
+}
+
+input,
+label {
+	display: block;
+}
+
+input {
+	width: 120%;
+	height: 20px;
+}
+
+label {
+	padding-bottom: 5px;
+}
+
+.input {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.endSection {
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+	padding-left: 30px;
+	gap: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.btn {
+	background-color: rgb(15, 112, 23);
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: monospace;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	cursor: pointer;
+	width: 200px;
+}
